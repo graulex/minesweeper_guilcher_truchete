@@ -2,6 +2,7 @@
 #include <ctime>
 #include <cstdlib>
 #include <ncurses.h>
+
 Game::Game(size_t width, size_t height)
 {
     _number_of_mines = 0;
